@@ -1,0 +1,82 @@
+#container{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+header{
+    height: 0px;
+    background-image: url(images/anhfpl.webp);
+    background-size: 100% 100%;
+    padding-bottom: 25%;
+}
+body{
+    padding: 0px;
+    margin: 0px;
+}
+nav{
+    line-height: 40px;
+    background-color: orangered;
+    font-variant: small-caps;
+    color: white;
+    text-align: center;
+}
+article{
+    width: 75%;
+    min-height: 400px;
+    background-color: lightgray;
+    float: left;
+}
+aside{
+    min-height: 400px;
+    width: 25%;
+    background-color: white;
+    float: right;
+}
+footer{
+    border-top: 5px double orangered;
+    line-height: 50px;
+    background-color: lightcyan;
+    text-align: center;
+    font-variant: small-caps ;
+    clear: both;
+}
+nav>a{
+    color: white;
+    text-decoration: none;
+    margin:0 10px;
+    
+}
+nav>a :hover{
+    color: yellow;
+    text-decoration: underline;
+}
+iframe[name=page]{
+    width: 100%;
+    min-height: 400px;
+}
+ul.vmenu{
+    list-style-type: none;
+    padding: 0;
+    margin: 5px;
+    box-shadow: 0 0 5px orangered;
+    border-radius: 10px;
+}
+ul.vmenu>li{
+    border-bottom: 1px dotted orangered;
+}
+ul.vmenu>li>a{
+   text-decoration: none;
+   line-height: 30px;
+   font-variant: small-caps;
+   color: black;
+   padding-left: 20px; 
+   font-size: large;
+   
+   background: url(images/bullet-orange.png) no-repeat left center;
+}
+ul.vmenu>li>a:hover{
+    text-decoration: underline;
+    color: red;
+    display: block;
+    background: url(images/bullet-orange.png) no-repeat left center;
+    background-color: orange;
+}
