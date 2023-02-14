@@ -1,0 +1,70 @@
+.box{
+    display: flex;
+    flex-direction: column;
+}
+body{
+    background-color: white ;
+    margin: 90px;
+    padding: 50px;
+}
+.images{
+    margin: 10px;
+    padding: 50px;
+}
+.formhead{
+    display: inline ;
+}
+.formbody{
+    
+    margin-top: 150px;
+}
+.formchoose{
+    padding: 5px;
+}
+.buttonX{
+    float: right;
+    top: 10px;
+}
+.namehead{
+    float: left;
+}
+.form-group{
+    margin: 10px 2px;
+}
+.form-control{
+    margin: 3px 0px;
+    padding: 5px;
+    border: none;
+    width: 200px;
+    border-radius: 3px;
+    box-shadow: 0 0 3px blue;
+    display: block;
+    outline: none;
+}
+.form-control:focus{
+    box-shadow: 0 0 3px orangered;
+}
+.button{
+    border: none;
+    border-radius: 3px;
+    box-shadow: 0 0 3px gray;
+    padding: 5px 10px;
+    outline: none;
+}
+.button:focus{
+    box-shadow: 0 0 3px rgb(67, 58, 55);
+}
+.form-button{
+    padding:8px 30px ;
+    outline:none ;
+     border: none ;
+     border-radius:5px ;
+     font-weight:bold ;
+     background-color: green ;
+     color: white ;
+     box-shadow:inset 0 0 20px greenyellow;
+}
+.form-button:hover{
+    color: black ;
+    box-shadow: inset 0 20px green;
+}
